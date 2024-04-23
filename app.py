@@ -38,8 +38,8 @@ firebase_admin.initialize_app(
     cred, {"databaseURL": "https://teleking-62908-default-rtdb.firebaseio.com/"}
 )
 
-updb = db.reference("trxpayUpdates")
-botdb = db.reference("trxpay").get() or {}
+updb = db.reference("trxpay1Updates")
+botdb = db.reference("trxpay1").get() or {}
 
 USED = []
 PROXY = {}
